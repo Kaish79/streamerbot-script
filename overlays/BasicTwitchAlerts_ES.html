@@ -265,10 +265,10 @@
 
     async function fetchAvatarOrPlaceholder(username, type) {
       if (type === 'Follow' && anonymousFollows) {
-        return 'https://raw.githubusercontent.com/tawmae/andreacw5.github.io/streamerbot-script/refs/heads/main/assets/media/heart-png.png';
+        return 'https://raw.githubusercontent.com/andreacw5/streamerbot-script/refs/heads/main/assets/media/heart-png.png';
       }
       if (type === 'Donation') {
-        return 'https://raw.githubusercontent.com/tawmae/andreacw5.github.io/streamerbot-script/refs/heads/main/assets/media/kofi%20placeholder.webp';
+        return 'https://raw.githubusercontent.com/andreacw5/streamerbot-script/refs/heads/main/assets/media/kofi%20placeholder.webp';
       }
       try {
         const response = await fetch(`https://decapi.me/twitch/avatar/${username}`);

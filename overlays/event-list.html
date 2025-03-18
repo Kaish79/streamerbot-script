@@ -244,7 +244,7 @@
                 case 'Follow':
                     if (urlParams.anonymousFollows) {
                         username = 'SOMEONE';
-                        avatarUrl = 'https://raw.githubusercontent.com/tawmae/tawmae.github.io/refs/heads/main/assets/media/heart-png.png';
+                        avatarUrl = 'https://raw.githubusercontent.com/andreacw5/streamerbot-script/refs/heads/main/assets/media/heart-png.png';
                     } else {
                         username = `${data.data.user_name}`;
                         avatarUrl = await fetchAvatar(data.data.user_login);
@@ -288,7 +288,7 @@
                 case 'Donation':
                     if (data.event.source === 'Kofi') {
                         username = `${data.data.from}`;
-                        avatarUrl = 'https://raw.githubusercontent.com/tawmae/tawmae.github.io/refs/heads/main/assets/media/kofi%20placeholder.webp';
+                        avatarUrl = 'https://raw.githubusercontent.com/andreacw5/streamerbot-script/refs/heads/main/assets/media/kofi%20placeholder.webp';
                         const currencySymbols = { USD: '$', EUR: '€', GBP: '£' };
                         const symbol = currencySymbols[data.data.currency] || data.data.currency;
                         eventInfo = `KOFI ${symbol}${data.data.amount}`;
