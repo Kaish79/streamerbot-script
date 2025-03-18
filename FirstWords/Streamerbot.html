@@ -193,6 +193,14 @@
       return avatarUrl;
     }
 
+    function getAudio() {
+      if (!audioCache.has('streamerbot-sound')) {
+        const audio = new Audio('https://andreacw5.github.io/streamerbot-script/FirstWords/streamerbot_audio.mp3');
+        audioCache.set('streamerbot-sound', audio);
+      }
+      return audioCache.get('streamerbot-sound');
+    }
+
     function showNotification(displayName, avatarUrl, color) {
       return new Promise((resolve) => {
         const notification = document.getElementById('notification');
@@ -204,6 +212,9 @@
         title.innerText = displayName;
         title.style.color = color;
         profileIcon.style.backgroundImage = `url(${avatarUrl})`;
+
+        const audio = getAudio();
+        audio.play();
 
         notification.style.display = 'flex';
         notification.style.animation = 'fadeIn 1s forwards';
