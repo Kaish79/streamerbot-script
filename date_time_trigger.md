@@ -2,7 +2,7 @@
 layout: default
 title: Time Trigger
 permalink: /date_time_trigger
-redirect_to:  https://tawmae.xyz/utility/time-trigger.html
+redirect_to:  https://andreacw5.github.io/streamerbot-script/utility/time-trigger.html
 nav_exclude: true
 search_exclude: true
 ---
