@@ -160,7 +160,7 @@
       };
 
       ws.onclose = function () {
-        setTimeout(connectws, 10000);
+        setTimeout(connectws, 15000);
       };
 
       ws.onerror = function () { };
@@ -218,16 +218,16 @@
         audio.play();
 
         notification.style.display = 'flex';
-        notification.style.animation = 'fadeIn 1s forwards';
+        notification.style.animation = 'fadeIn 2s forwards';
 
         setTimeout(() => {
-          notification.style.animation = 'fadeOut 1s forwards';
+          notification.style.animation = 'fadeOut 2s forwards';
           setTimeout(() => {
             notification.style.display = 'none';
             notification.style.animation = '';
             resolve();
-          }, 1000);
-        }, 7000);
+          }, 2000);
+        }, 8000);
       });
     }
 
