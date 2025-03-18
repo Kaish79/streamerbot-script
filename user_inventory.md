@@ -137,7 +137,7 @@ As mentioned in the `!use [Item]` command, you can use the populated variables t
 
 You then check for `usedItem` -> `Equals` -> "The Name Of Your Item" and attach the action to it that you want to fire. For example playing a sound or triggering an OBS filter. In my example below, my item is called "Catnap", which triggers the "Catnip Sound" action.
 
-[![Picture](assets/media/user_inventory_example_use.png)](https://tawmae.github.io/assets/media/user_inventory_example_use.png)
+[![Picture](assets/media/user_inventory_example_use.png)](https://andreacw5.github.io/streamerbot-script/assets/media/user_inventory_example_use.png)
 
 You can stack as many if/else-subactions as you want, ideally one for every item you have.
 
@@ -149,7 +149,7 @@ You can stack as many if/else-subactions as you want, ideally one for every item
 
 The previous versions had a dedicated loot action. This one doesn't, but you can still achieve that. For that, you can simply create a new group in the `[User Item Inventory] 1 - Add Item` action and put the `Set Argument - itemName` subaction in there. You can then duplicate that `Set Argument` subaction as many times as you like - each subaction will be one item.
 
-[![Picture](assets/media/user_inventory_loot_1.png)](https://tawmae.github.io/assets/media/user_inventory_loot_1.png)
+[![Picture](assets/media/user_inventory_loot_1.png)](https://andreacw5.github.io/streamerbot-script/assets/media/user_inventory_loot_1.png)
 
 You then rightclick the group and select `Random`. This will pick one of the subactions at random. To specifiy the odds even more, you can rightclick the `Set Argument` subactions and set their weighting. Higher weight -> higher probability. 
 

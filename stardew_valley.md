@@ -89,7 +89,7 @@ Parameters:
 - `duration` *(int)* - the buff duration in seconds
 - `hudMessage` *(string)* - a notification message that shows which user redeemed which request
 
-Full List of Buff Names here: [**All Buff Names**](https://tawmae.github.io/stardew_valley_full_list.html#buffs)
+Full List of Buff Names here: [**All Buff Names**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#buffs)
 
 *Note: Some of the buffs don't have an icon indicator (like CombatLevel or all the Multiplier buffs)*
 
@@ -207,7 +207,7 @@ Parameters:
 
 Variables: `none`
 
-Full List of Items here: [**All Items**](https://tawmae.github.io/stardew_valley_full_list.html#items)
+Full List of Items here: [**All Items**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#items)
 
 ---
 
@@ -220,7 +220,7 @@ Parameters:
 - `hudMessage` *(string)* - a notification message that shows which user redeemed which request
 
 Variables: `none`
-Full List of Items here: [**All Items**](https://tawmae.github.io/stardew_valley_full_list.html#items)
+Full List of Items here: [**All Items**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#items)
 
 ---
 
@@ -272,7 +272,7 @@ Parameters:
 
 Variables: `none`
 
-Full List of Music Tracks here: [**All Music Tracks**](https://tawmae.github.io/stardew_valley_full_list.html#music-tracks)
+Full List of Music Tracks here: [**All Music Tracks**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#music-tracks)
 
 ---
 
@@ -286,7 +286,7 @@ Parameters:
 - `sound` *(string)* - the sound name
 
 Variables: `none`
-Full List of Sounds here: [**All Sounds**](https://tawmae.github.io/stardew_valley_full_list.html#sounds)
+Full List of Sounds here: [**All Sounds**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#sounds)
 
 ---
 
@@ -311,7 +311,7 @@ Parameters:
 - `monsterName` *(string)* - the name of the monster
 - `hudMessage` *(string)* - a notification message that shows which user redeemed which request
 
-Full List of Monster Names here: [**All Monster Names**](https://tawmae.github.io/stardew_valley_full_list.html#monsters)
+Full List of Monster Names here: [**All Monster Names**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#monsters)
 
 *Note: Monsters spawn randomly 1-3 tiles next to the player and it can happen that they spawn within another object and can't move*
 
@@ -326,7 +326,7 @@ Parameters:
 - `tool` *(string)* - the tool type
 - `hudMessage` *(string)* - a notification message that shows which user redeemed which request
 
-Full List of the Tool Types here: [**All Tool Types**](https://tawmae.github.io/stardew_valley_full_list.html#tools)
+Full List of the Tool Types here: [**All Tool Types**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#tools)
 
 *Note: weapons are upgraded in the following order:*
 
@@ -349,7 +349,7 @@ Parameters:
 - `tool` *(string)* - the tool type
 - `hudMessage` *(string)* - a notification message that shows which user redeemed which request
 
-Full List of the Tool Types here: [**All Tool Types**](https://tawmae.github.io/stardew_valley_full_list.html#tools)
+Full List of the Tool Types here: [**All Tool Types**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#tools)
 
 *Note: see the upgrade order on the "Tool Downgrade" request above*
 
@@ -365,7 +365,7 @@ Parameters:
 - `emoteName` *(string)* - the name of the emote
 - `hudMessage` *(string)* - a notification message that shows which user redeemed which request
 
-Full List of the Emotes here: [**All Emote Names**](https://tawmae.github.io/stardew_valley_full_list.html#emotes)
+Full List of the Emotes here: [**All Emote Names**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#emotes)
 
 ---
 
@@ -380,7 +380,7 @@ Parameters:
 
 Variables: `none`
 
-Full List of Locations here: [**All Locations**](https://tawmae.github.io/stardew_valley_full_list.html#locations)
+Full List of Locations here: [**All Locations**](https://andreacw5.github.io/streamerbot-script/stardew_valley_full_list.html#locations)
 
 ---
 
