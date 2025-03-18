@@ -123,6 +123,7 @@
     const avatars = new Map();
     const notificationQueue = [];
     let isProcessing = false;
+    const audioCache = new Map();
 
     function connectws() {
       if ("WebSocket" in window) {
@@ -194,11 +195,11 @@
     }
 
     function getAudio() {
-      if (!audioCache.has('streamerbot-sound')) {
+      if (!audioCache.has('hello-sound')) {
         const audio = new Audio('https://andreacw5.github.io/streamerbot-script/FirstWords/streamerbot_audio.mp3');
-        audioCache.set('streamerbot-sound', audio);
+        audioCache.set('hello-sound', audio);
       }
-      return audioCache.get('streamerbot-sound');
+      return audioCache.get('hello-sound');
     }
 
     function showNotification(displayName, avatarUrl, color) {
